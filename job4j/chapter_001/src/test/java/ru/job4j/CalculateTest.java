@@ -18,7 +18,7 @@ public class CalculateTest {
 public void whenTakeNameThenTreeEchoPlusName() {
     String input = "Alex Protopopov";
     String expect = "Echo, echo, echo : Alex Protopopov";
-    main.java.ru.job4j.Calculate calc = new main.java.ru.job4j.Calculate();
+	ru.job4j.Calculate calc = new ru.job4j.Calculate();
     String result = calc.echo(input);
     assertThat(result, is(expect));
 }
