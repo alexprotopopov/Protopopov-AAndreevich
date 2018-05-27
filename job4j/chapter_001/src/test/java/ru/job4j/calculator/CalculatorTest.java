@@ -6,33 +6,33 @@ import static org.junit.Assert.assertThat;
 
 public class CalculatorTest {
     @Test
-    public void whenAdd1OnePlusOneThenTwo() {
+    public void whenaAdditionOnePlusOneThenTwo() {
         Calculator calc = new Calculator();
-        calc.add1(1D, 1D);
+        calc.addition(1D, 1D);
         double result = calc.getResult();
         double expected = 2D;
         assertThat(result, is(expected));
     }
     @Test
-    public void whenAdd2OneSubtractleOneThenZero() {
+    public void whenSubtractionOneSubtractleOneThenZero() {
         Calculator calc = new Calculator();
-        calc.add2(1D, 1D);
+        calc.subtraction(1D, 1D);
         double result = calc.getResult();
         double expected = 0;
         assertThat(result, is(expected));
     }
     @Test
-        public void whenAdd3OneMultipleOneThenOne() {
+        public void whenMultiplicationOneMultipleOneThenOne() {
         Calculator calc = new Calculator();
-        calc.add3(1D, 1D);
+        calc.multiplication(1D, 1D);
         double result = calc.getResult();
         double expected = 1D;
         assertThat(result, is(expected));
     }
     @Test
-    public void whenAdd4OneDivOneThenOne() {
+    public void whenDivisionOneDivOneThenOne() {
         Calculator calc = new Calculator();
-        calc.add4(1D, 1D);
+        calc.division(1D, 1D);
         double result = calc.getResult();
         double expected = 1D;
         assertThat(result, is(expected));
