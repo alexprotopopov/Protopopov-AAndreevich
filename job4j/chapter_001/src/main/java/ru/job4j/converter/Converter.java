@@ -9,8 +9,7 @@ public class Converter {
      * @return Евро.
      */
     public int rubleToEuro(int value) {
-        int result = value / 70;
-        return value / 70;
+               return value / 70;
     }
     /**
      * Конвертируем рубли в доллары.
@@ -18,8 +17,7 @@ public class Converter {
      * @return Доллоры
      */
     public int rubleToDollar(int value) {
-        int result = value / 60;
-        return value / 60;
+                return value / 60;
     }
     /**
      * Конвертируем евро в рубли.
@@ -27,8 +25,7 @@ public class Converter {
      * @return Рубли.
      */
     public int euroToRuble(int valueeuro) {
-        int result = valueeuro * 70;
-        return  valueeuro * 70;
+               return  valueeuro * 70;
     }
     /**
      * Конвертируем доллары в рубли.
@@ -36,8 +33,7 @@ public class Converter {
      * @return Рубли.
      */
         public int dollarToRuble(int valuedollar) {
-            int result = valuedollar * 60;
-            return valuedollar * 60;
+                       return valuedollar * 60;
         }
     }
 
