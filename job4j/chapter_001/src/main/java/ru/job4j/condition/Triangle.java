@@ -32,8 +32,16 @@ public class Triangle {
         return rsl;
     }
 
-    private boolean exist(double ab, double ac, double bc) {
-        return false;
+    private boolean exist(double ab, double ac, double bc)
+
+    {
+        if ((ab + ac + bc) / 2 < ab) ;
+        if ((ab + ac + bc) / 2 < ac) ;
+        if ((ab + ac + bc) / 2 < bc)
+            return true;
+        else
+            return false;
+
     }
 }
 		
